@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <title>DOCUMENT</title>
+    <style>
+        body{
+            background-color: rgba(143, 178, 255, 0.815);
+        }
+        div{
+            width: 500px;
+            box-shadow: 0 0 10px;
+            padding: 30px;
+            margin: 200px auto;
+            background-color: rgb(255, 128, 139);
+        }
+    </style>
+    <script>
+        function fnShowHidePassword(){
+  var inputRef =   document.getElementById('i1');
+  inputRef.type="text";
+        }
+    
+    </script>
+
+
+    </head>
+    <body>
+        <div>
+            <h2>Show/Hide Password</h2>
+            <label>Enter Text</label>
+            <input type="password"  id="i1"/>  
+            <button onclick="fnShowHidePassword()">Show Password</button>
+            <p id="pid"></p>
+        </div>
+    </body>
+</html>
